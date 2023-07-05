@@ -95,6 +95,10 @@ body {
 
 .col {
     width: calc(100% / 3 - 10px);
+
+}
+
+.img-cnt {
     position: relative;
 }
 
@@ -115,6 +119,10 @@ body {
 
 }
 
+.description {
+    padding-bottom: 3rem;
+}
+
 .eco {
     background-color: var(--tb-green);
     height: 40px;
@@ -127,7 +135,7 @@ body {
     text-align: center;
     font-size: 20px;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
 }
 
 .heart {
