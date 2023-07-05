@@ -41,6 +41,7 @@ body {
 
 .selection {
     width: 70%;
+    max-width: 1175px;
     margin: auto;
     justify-content: space-between;
     padding-top: 2rem;
@@ -80,6 +81,7 @@ body {
     width: 70%;
     margin: auto;
     position: relative;
+    max-width: 1175px;
 }
 
 .row {
