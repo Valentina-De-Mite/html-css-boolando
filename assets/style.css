@@ -16,6 +16,59 @@ All'hover sul cuoricino, questo diventa rosso */
     box-sizing: border-box;
 }
 
+:root {
+    --tb-header: #ff6900;
+    --tb-footer: #1a1a1a;
+    --tb-green: #008000;
+    --tb-red: #ff0000;
+    --tb-main: #ffffff;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    height: 67px;
+    background-color: var(--tb-header);
+}
+
+.selection {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: end;
+}
+
+.menu,
+.icons {
+    width: 20%;
+}
+
+.logo {
+    width: 60%;
+    text-align: center;
+}
+
+.menu>a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--tb-main);
+
+}
+
+.boolean {
+    width: 120px;
+    height: 25px;
+}
+
+.icons {
+    gap: 1px;
+
 }
